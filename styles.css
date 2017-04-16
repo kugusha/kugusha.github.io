@@ -1,0 +1,95 @@
+/* #FFE5D4 */
+
+html, body {  
+  height: 100%; 
+  width: 100%;
+}
+
+body, input {
+  background: #EDB3B2;
+  font-family: 'VT323', monospace;
+}
+
+.wrapper {
+  position: absolute;
+  width: 340px;
+  height: 125px;
+  top: 50%;
+  left: 50%;
+  margin: -62.5px -170px;
+}
+
+input {
+  display: block;
+  width: 300px;
+  font-size: 40px;
+  line-height: 40px;
+  background: transparent;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 3px solid;
+  padding: 5px 0;
+  border-radius: 0;
+  color: #545E75;
+}
+
+input:focus {
+  outline: none;
+  color: #545E75;
+  letter-spacing: 3px;
+}
+
+ ::-webkit-input-placeholder {
+  color: #545E75;
+ }
+
+ .error_m{
+  position: absolute;
+  width: 300px;
+  height: 70px;
+  top: 50%;
+  left: 50%;   
+  margin: -170px -170px;
+  font-size: 30px;
+  text-align: center;
+  background: transparent;
+ }
+
+.footer {
+  position: absolute;
+  width: 95%;
+  height: 50px;
+  bottom: 5px;
+  margin: 0px 0px 10px 10px;
+  font-size: 20px;
+  text-align: left;  
+}
+
+a {
+  color: #545E75;
+}
+
+p {
+  color: #545E75;
+}
+
+@media only screen and (max-width: 400px) {
+  input {
+    width: 280px;
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .error_m {
+    width: 280px;
+    margin-left: -140px;
+  }
+  .wrapper {
+    width: 280px;
+    margin-left: -140px;
+  }
+  .footer {
+    width: 280px;
+    margin: 0px 0px 10px 10px;
+  }
+}
